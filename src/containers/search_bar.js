@@ -9,16 +9,22 @@ export default class SearchBar extends Component {
     };
 
     this.onInputChange = this.onInputChange.bind(this);
+    this.onFormSubmmit = this.onFormSubmmit.bind(this);
   }
 
   onInputChange(event) {
-    console.log(event.target.value);
     this.setState({term: event.target.value});
+  }
+
+  onFormSubmmit(event) {
+    event.preventDefault();
+
+    // This is where we are fetching data
   }
 
   render() {
     return (
-      <form className="input-group">
+      <form onSubmit={this.onFormSubmmit}className="input-group">
         <input
           placeholder="Get a five-day forecast in your favorite cities"
           className="form-control"
