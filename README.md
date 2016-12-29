@@ -1,25 +1,15 @@
-# ReduxSimpleStarter
+#ReactWeatherApp
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+###Summary###
 
-###Getting Started###
+This React Weather App allows for the user to search for cities in the US in order to get a graphed forecast of temperature, pressure and humidity over the next 5 days, as well as the average for multiple cities. It is created through webpack as the build tool, React Sparklines (for the graph), React google maps and Redux.  
 
-There are two methods for getting started with this repo.
-
-####Familiar with Git?#####
+####Getting Started#####
 Checkout this repo, install dependencies, then start the gulp process with the following:
 
 ```
-	> git clone git@github.com:StephenGrider/ReduxSimpleStarter.git
-	> cd ReduxSimpleStarter
-	> npm install
-	> npm start
-```
-
-####Not Familiar with Git?#####
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
+	> git clone https://github.com/michaeldumalag/ReduxWeatherApp.git
+	> cd ReduxWeatherApp
 	> npm install
 	> npm start
 ```
